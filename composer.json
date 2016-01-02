@@ -11,16 +11,14 @@
 		}
 	],
 	"require": {
-		"php": ">=5.3.3"
-	},
-	"require-dev": {
+		"php": ">=5.3.3",
 		"phpunit/phpunit": "5.1.*"
 	},
 	"autoload": {
-		"psr-4": {"CopyImages\\": "src/"}
-	},
-	"autoload-dev": {
-		"psr-4": {"CopyImagesTest\\": "test/"}
+		"psr-4": {
+			"CopyImages\\": "src/",
+			"CopyImagesTest\\": "test/"
+		}
 	},
 	"minimum-stability": "dev"
 }
