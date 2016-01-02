@@ -1,6 +1,6 @@
 {
 	"name" : "copyimages/testing",
-	"author" : 
+	"author" : "Rusanov S.V.",
 	"description" : "Small package for copy files from host to your local mashine. Work in Linux and Windows",
 	"type" : "library",
 	"require" : {
