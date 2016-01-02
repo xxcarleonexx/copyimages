@@ -1,6 +1,7 @@
 <?php
-
-    class CopyFiles
+    namespace CopyImages;
+    
+    class CopyImages
     {
         private $address;
         private $imgTypes;
