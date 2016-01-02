@@ -1,10 +1,10 @@
 {
 	"name" : "copyimages/testing",
 	"author" : "Rusanov S.V.",
-	"description" : "Small package for copy files from host to your local mashine. Work in Linux and Windows",
+	"description" : "Small package for copy files from host to your local computer. Work in Linux and Windows",
 	"type" : "library",
 	"require" : {
-		"php" : "> 5.3.0"
+		"php" : "^5.3"
 	},
 	"autoload" : {
 		"psr-4" : {"MyCopyFiles\\" : "src/"}
