@@ -12,10 +12,10 @@
 		"phpunit/phpunit": "5.1.*"
 	},
 	"autoload": {
-		"psr-4": {"CopyImages\\" : "src/"}
+		"psr-4": {"CopyImages\\": "src/"}
 	},
 	"autoload-dev": {
-		"psr-4": {"CopyImagesTest\\" : "test/"}
+		"psr-4": {"CopyImagesTest\\": "test/"}
 	},
 	"minimum-stability": "dev"
 }
