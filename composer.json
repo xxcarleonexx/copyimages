@@ -6,7 +6,7 @@
 	"license": "MIT", 
 	"author": "Rusanov S.V.",
 	"require": {
-		"php": "^5.3.*"
+		"php": "5.6.*"
 	},
 	"autoload": {
 		"psr-4": {"CopyImages\\" : "src/"}
