@@ -1,24 +1,29 @@
 {
-	"name": "copyimages/testing",
-	"version": "v0.0.1-dev",
-	"description": "Small package for copy files from host to your local computer. Work in Linux and Windows",
-	"type": "library",
-	"license": "MIT", 
-	"authors": [
-		{
-			"name": "Sergey Rusanov",
-			"role": "Developer"
-		}
-	],
-	"require": {
-		"php": ">5.3.3",
-		"phpunit/phpunit": "5.1.*@dev"
-	},
-	"autoload": {
-		"psr-4": {
-			"CopyImages\\": "src/",
-			"CopyImagesTest\\": "test/"
-		}
-	},
-	"minimum-stability": "dev"
+    "name": "copyimages/testing",
+    "version": "v 0.0.1-dev",
+    "description": "Small package for copy files from host to your local computer. Work in Linux and Windows",
+    "type": "library",
+    "license": "MIT", 
+    "authors": [
+        {
+            "name": "Sergey Rusanov",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">5.3.3",
+        "phpunit/phpunit": "5.1.*@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "CopyImages\\": "src/",
+            "CopyImagesTest\\": "test/"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.0.x-dev"
+        }
+    } 
 }
