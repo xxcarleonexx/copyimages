@@ -3,6 +3,7 @@
 	"author" : "Rusanov S.V.",
 	"description" : "Small package for copy files from host to your local computer. Work in Linux and Windows",
 	"type" : "library",
+	"license": "MIT", 
 	"require" : {
 		"php" : "^5.3"
 	},
