@@ -1,6 +1,6 @@
 {
     "name": "copyimages/testing",
-    "version": "v 0.0.1-dev",
+    "version": "v0.0.2-dev",
     "description": "Small package for copy files from host to your local computer. Work in Linux and Windows",
     "type": "library",
     "license": "MIT", 
@@ -23,7 +23,7 @@
     "minimum-stability": "dev",
     "extra": {
         "branch-alias": {
-            "dev-master": "0.0.1-dev"
+            "dev-master": "0.0.2-dev"
         }
     } 
 }
