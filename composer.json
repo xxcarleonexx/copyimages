@@ -1,6 +1,6 @@
 {
 	"name" : "copyimages/testing",
-	"version" : "0.0.1",
+	"version" : "v0.0.1-dev",
 	"description" : "Small package for copy files from host to your local computer. Work in Linux and Windows",
 	"type" : "library",
 	"license": "MIT", 
