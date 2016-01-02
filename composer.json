@@ -4,7 +4,12 @@
 	"description": "Small package for copy files from host to your local computer. Work in Linux and Windows",
 	"type": "library",
 	"license": "MIT", 
-	"author": "Rusanov S.V.",
+	"authors": [
+		{
+			"name": "Sergey Rusanov",
+			"role": "developer",
+		}
+	],
 	"require": {
 		"php": ">=5.3.3"
 	},
