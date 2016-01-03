@@ -24,5 +24,12 @@
             return $this->address;
         }
         
+        /*
+        @return : возвращает true всегда.
+        */
+        public function getTrue()
+        {
+            return true;
+        }
+        
     }
-    
