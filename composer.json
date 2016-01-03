@@ -1,12 +1,12 @@
 {
     "name": "copyimages/testing",
-    "version": "v0.0.2-dev",
     "description": "Small package for copy files from host to your local computer. Work in Linux and Windows",
     "type": "library",
-    "license": "MIT", 
+    "license": "GPL-3.0", 
     "authors": [
         {
             "name": "Sergey Rusanov",
+            "email": "xxcarleonexx@mail.ru",
             "role": "Developer"
         }
     ],
@@ -19,11 +19,5 @@
             "CopyImages\\": "src/",
             "CopyImagesTest\\": "test/"
         }
-    },
-    "minimum-stability": "dev",
-    "extra": {
-        "branch-alias": {
-            "dev-master": "0.0.2-dev"
-        }
-    } 
+    }
 }
