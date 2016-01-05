@@ -14,9 +14,7 @@
         "php": ">5.3.4",
         "ext-curl" : "*",
         "phpunit/phpunit": "5.1.*"
-    },
-    "require-dev": {
-        "mikey179/vfsStream": ">1.0"
+        "mikey179/vfsStream": "1.*"
     },
     "autoload": {
         "psr-4": {
