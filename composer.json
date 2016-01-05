@@ -12,19 +12,13 @@
     ],
     "autoload": {
         "psr-4": {
-            "CopyImages\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
+            "CopyImages\\": "src/",
             "CopyImagesTest\\": "test/"
         }
     },
     "require": {
         "php": ">5.3.4",
-        "ext-curl" : "*"
-    },
-    "require-dev": {
+        "ext-curl" : "*",
         "phpunit/phpunit": "5.1.*"
     }
 }
