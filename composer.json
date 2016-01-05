@@ -2,7 +2,7 @@
     "name": "copyimages/testing",
     "description": "Small package for copy files from host to your local computer. Work in Linux and Windows",
     "type": "library",
-    "license": "GPL-3.0", 
+    "license": "GPL-3.0",
     "authors": [
         {
             "name": "Sergey Rusanov",
@@ -12,7 +12,9 @@
     ],
     "require": {
         "php": ">5.3.4",
-        "phpunit/phpunit": "5.1.*@dev"
+        "ext-curl" : "*",
+        "phpunit/phpunit": "5.1.*",
+        "mikey179/vfsStream": ">1.*"
     },
     "autoload": {
         "psr-4": {
