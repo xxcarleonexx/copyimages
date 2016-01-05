@@ -12,13 +12,18 @@
     ],
     "require": {
         "php": ">5.3.4",
-        "ext-curl" : "*",
-        "phpunit/phpunit": "5.1.*",
-        "mikey179/vfsStream": "1.*"
+        "ext-curl" : "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.1.*"
     },
     "autoload": {
         "psr-4": {
-            "CopyImages\\": "src/",
+            "CopyImages\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
             "CopyImagesTest\\": "test/"
         }
     }
